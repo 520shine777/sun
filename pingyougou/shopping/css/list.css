@@ -1,0 +1,90 @@
+.sk {
+    position: absolute;
+    left: 190px;
+    top: 40px;
+    border-left: 2px solid #b1191a;
+    padding: 3px 0 0 14px;
+}
+.sk_list ul li {
+    float: left;
+}
+.sk_list ul li a {
+    display: block;
+    padding: 0 30px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #000000;
+}
+.sk_con ul li {
+    float: left;
+}
+.sk_con ul li a {
+    display: block;
+    padding: 0 20px;
+    font-size: 14px;
+}
+.sk_con ul li:last-child a::after {
+    content: "\e91e";
+    font-family: 'icomoon';
+}
+.sk_bd ul li {
+    overflow: hidden;
+    float: left;
+    margin-right: 13px;
+    width: 290px;
+    height: 460px;
+    border: 1px solid transparent;
+}
+.sk_bd ul li:nth-child(4n) {
+    margin-right: 0;
+}
+.sk_bd ul li:hover {
+    border: 1px solid red;
+}
+.sk_bd ul li img{
+    width: 100%;
+}
+.sk_bd ul li p {
+    font-size: 14px;
+    color: #666666;
+    margin: 0 12px;
+}
+.info {
+    font-size: 22px;
+    color: #e60012;
+    margin: 5px 12px 0;
+}
+.info em {
+    font-size: 14px;
+    color: #a4a4a4;
+    text-decoration:line-through;
+}
+.jindu {
+    height: 35px;
+    line-height: 35px;
+}
+.jdt {
+    width: 132px;
+    height: 12px;
+    border: 1px solid red;
+    margin-top: 12px;
+    border-radius: 6px;
+}
+.j {
+    height: 11px;
+    width: 87%;
+    border: 1px solid red;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    background-color: red;
+}
+.liji a {
+    display: block;
+    width: 290px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background-color: #b1191a;
+    color: #fff;
+    font-size: 20px;
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>360浏览器</title>
+    <link rel="stylesheet" href="css/fullpage.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/index.css">
+
+</head>
+
+<body>
+    <!-- 固定导航栏模块 -->
+    <header class="header">
+        <div class="w">
+            <div class="logo fl">
+                <img src="images/logo.png" alt="360浏览器">
+            </div>
+            <div class="nav fr">
+                <a href="#">论坛</a>
+                <a href="#">扩展</a>
+                <a href="#">Mac版</a>
+            </div>
+        </div>
+    </header>
+    <!-- 全屏滚动代码 -->
+    <div id="fullpage">
+        <div class="section section1">
+            <div class="title-box">
+            <p>畅快浏览，极致体验</p>
+            <a href="#"></a>
+            </div>
+            <div class="ball1">
+                <img src="images/ball1.png" alt="">
+            </div>
+            <div class="ball2">
+                <img src="images/ball2.png" alt="">
+            </div>
+            <div class="ship">
+                <img src="images/ship.png" alt="">
+            </div>
+        </div>
+        <div class="section">Some section2</div>
+        <div class="section">Some section3</div>
+        <div class="section">Some section4</div>
+        <div class="section">Some section5</div>
+    </div>
+    <!-- 引入jqery的js文件 -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/fullpage.js"></script>
+    <script>
+        $(function () {
+            $('#fullpage').fullpage({
+                'navigation': true,
+            });
+        })
+    </script>
+</body>
+
+</html>
